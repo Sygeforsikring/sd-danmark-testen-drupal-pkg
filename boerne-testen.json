@@ -1,0 +1,66 @@
+{
+	"intro": "<h2>Har du forsikret det dyrebareste du har?</h2><p><strong>Mange forældre tror, at deres børn er godt forsikret. Men virkeligheden kan desværre være en anden</strong></p><p>Når det gælder vores børn, er sygdom og ulykke et emne de færreste af os har lyst til at beskæftige os med. På den anden side: Det er også et emne, som er alt for vigtigt at vende det blinde øje til.</p><p><strong>Som supplement til dit barns dækning i \"danmark\" kan du tegne en børneforsikring, der dækker sygdom og/eller ulykke.</strong></p><p>Tag testen - det tager kun et par minutter - og bliv klogere på, hvilken børneforsikring der passer til jeres behov.</p>",
+	"results": [
+		{
+			"in": [ -1 ],
+			"html": "<p>Når dit barn er fyldt 15 år, er det desværre ikke muligt at tegne tilvalget børneforsikring</p>"
+		},
+		{
+			"in": [ 0 ],
+			"html": "Testen viser, at du sandsynligvis ikke ønsker at tegne en børneforsikring<br>Vil du gerne vide mere om børneforsikring og de tre forskellige muligheder:<br>Børn Kombi / Børn Sygdom / Børn Ulykke<br>så læs mere <a href='http://sygeforsikring.dk/tilvalg/boern'>her</a>"
+		},
+		{
+			"in": [ 1,4,5 ],
+			"html": "En god beslutning for jer vil sandsynligvis være at vælge Børn Ulykke<br>Med Børn Ulykke er dit barn økonomisk dækket, hvis det får varige mén som sølge af alvorlig ulykke.<br>Børn Ulykke dækker:<br>Varigt mén som følge af ulykke, herunder dobbelterstatning. Dækningssum: 846.000 kr.<br>Tandskade som følge af ulykke<br>Behandlingsudgifter ved ulykke<br>Dødsfaldsdækning som følge af ulykke. Engangsbeløb: 50.000 kr.<br>Transportudgifter ved ulykke<br>Psykologisk krisehjælp<br>"
+		},
+		{
+			"in": [ 2,8 ],
+			"html": "En god beslutning for jer vil sandsynligvis være at vælge Børn Sygdom<br>Med Børn Sygdom er dit barn økonomisk dækket, hvis det får varige mén som følge af alvorlig sygdom.<br>Børn Sygdom dækker:<br>Varigt mén som følge af sygdom, herunder dobbelterstatning Dæknignssum: 846.000 kr.<br>Hospitalskompensation<br>Dødsfaldsdækning ved sygdom. Engangsbeløb: 50.000 kr.<br>"
+		},
+		{
+			"html": "En god beslutning for jer vil sandsynligvis være at vælge Børn Kombi<br>Med Børn Kombi er dit barn økonomisk dækket, hvis det får varige mén uanset om årsagen er en ulykke eller sygdom. <br>Børn Kombi dækker:<br>Varigt mén som følge af ulykke, herunder dobbelterstatning. Dækningssum: 846.000 kr.<br>Tandskade som følge af ulykke<br>Behandlingsudgifter ved ulykke<br>Dødsfaldsdækning som følge af ulykke. Engangsbeløb: 50.000 kr.<br>Transportudgifter ved ulykke<br>Psykologisk krisehjælp<br>Varigt mén som følge af sygdom, herunder dobbelterstatning Dæknignssum: 846.000 kr.<br>Hospitalskompensation<br>Dødsfaldsdækning ved sygdom. Engangsbeløb: 50.000 kr.<br>"
+		}
+	],
+	"questions": [
+		{
+			"question": "Har du hjemmeboende børn under 15 år?",
+			"extra": "<p>Vidste du...</p><p>Når du er medlem af \"danmark\", har dit barn mulighed for at blive gratis medforsikret i \"danmark\". <a href='/indmeldelse/boern'>Læs mere om børns medlemskab af \"danmark\"</a>. Du kan vælge at supplere denne gratis dækning i \"danmark\" med en børneforsikring, der dækker ulykke, sygdom eller begge dele. Børneforsikringen kan tegnes, når dit barn er under 15 år.",
+			"answers": [
+				{ "answer_id": 0, "score":  0, "text": "Ja" },
+				{ "answer_id": 1, "score": -1, "text": "Nej" }
+			]
+		},
+		{
+			"question": "Ønsker du, at familien får kompensation, hvis dit barn bliver alvorligt syg og indlagt?",
+			"extra": "<p>Vidste du...</p><p>at det er muligt at få økonomisk kompensation, hvis dit barn bliver indlagt i minimum 8 sammenhængende dage. Beløbet kan være med til at dække ekstra udgifter til parkering, benzin og måltider.",
+			"answers": [
+				{ "answer_id": 2, "score":  8, "text": "Ja" },
+				{ "answer_id": 3, "score":  0, "text": "Nej" }
+			]
+		},
+		{
+			"question": "Skal dit barn have økonomisk hjælp, hvis det får varigt mén som følge af en ulykke?",
+			"extra": "<p>Vidste du...</p><p>Dit barn er ikke dækket via vuggestuens, børnehavens, fritidsordningen eller skolens forsikringer, hvis det kommer ud for en ulykke her. Det er derfor op til dig som forælder at forsikre dit barn.</p>",
+			"answers": [
+				{ "answer_id": 4, "score":  4, "text": "Ja" },
+				{ "answer_id": 5, "score":  0, "text": "Nej" }
+			]
+		},
+		{
+			"question": "Skal dit barn have økonomisk hjælp, hvis det får varigt mén som følge af en sygdom?",
+			"extra": "<p>Vidste du...</p><p>Hvis dit barn skulle få varige mén som følge af en sygdom, så dækkes det som oftest ikke af en almindelig ulykkesforsikring.</p>",
+			"answers": [
+				{ "answer_id": 6, "score":  2, "text": "Ja" },
+				{ "answer_id": 7, "score":  0, "text": "Nej" }
+			]
+		},
+		{
+			"question": "Ønsker du, at dit barn er dækket økonomisk i tilfælde af tandskade?",
+			"extra": "<p>Vidste du...</p><p>Børns tænder lever livet farligt. Alle børn under 18 år, er dækket af den kommunale tandpleje. Men får dit barn skader på tænderne, der først viser sig eller først kan behandles efter det er fyldt 18 år, vil børneforsikringen dække udgifterne</p>",
+			"answers": [
+				{ "answer_id": 8, "score":  1, "text": "Ja" },
+				{ "answer_id": 9, "score":  0, "text": "Nej" }
+			]
+		}
+	]
+}
