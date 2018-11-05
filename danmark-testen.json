@@ -25,13 +25,16 @@
 		{
 			"question": "Hvor gammel er du?",
 			"step": 1,
+			"message": "Børn under 16 år kan komme gratis med i \"danmark\", hvis bare én af deres forældre er med. Tjek derfor med dine forældre, om du allerede er medlem.",
 			"answers": [
-				{ "answer_id": 0, "score":  700, "text": "0-15 år" },
-				{ "answer_id": 1, "score":  900, "text": "16-17 år" },
-				{ "answer_id": 2, "score":  900, "text": "18-25 år" },
-				{ "answer_id": 3, "score": 1100, "text": "26-44 år" },
-				{ "answer_id": 4, "score": 1100, "text": "45-59 år" },
-				{ "answer_id": 5, "score":  900, "text": "60+ år" }
+				{ "answer_id": 0, "score":  700, "text": "0-15" },
+				{ "answer_id": 1, "score":  900, "text": "16-16" },
+				{ "answer_id": 36, "score":  900, "text": "17-17" },
+				{ "answer_id": 2, "score":  900, "text": "18-24" },
+				{ "answer_id": 37, "score":  900, "text": "25-25" },
+				{ "answer_id": 3, "score": 1100, "text": "26-44" },
+				{ "answer_id": 4, "score": 1100, "text": "45-59" },
+				{ "answer_id": 5, "score":  900, "text": "60-120" }
 			]
 		},
 		{
