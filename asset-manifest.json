@@ -1,14 +1,14 @@
 {
   "main.css": "/libraries/danmark-testen/static/css/main.6059eed1.chunk.css",
-  "main.js": "/libraries/danmark-testen/static/js/main.fe106d6b.chunk.js",
-  "main.js.map": "/libraries/danmark-testen/static/js/main.fe106d6b.chunk.js.map",
+  "main.js": "/libraries/danmark-testen/static/js/main.d2bc7225.chunk.js",
+  "main.js.map": "/libraries/danmark-testen/static/js/main.d2bc7225.chunk.js.map",
   "static/js/1.f4b1c376.chunk.js": "/libraries/danmark-testen/static/js/1.f4b1c376.chunk.js",
   "static/js/1.f4b1c376.chunk.js.map": "/libraries/danmark-testen/static/js/1.f4b1c376.chunk.js.map",
   "runtime~main.js": "/libraries/danmark-testen/static/js/runtime~main.79ce4cc3.js",
   "runtime~main.js.map": "/libraries/danmark-testen/static/js/runtime~main.79ce4cc3.js.map",
-  "static/media/main.css": "/libraries/danmark-testen/static/media/icons__heart--grey.a555067a.svg",
+  "static/media/main.css": "/libraries/danmark-testen/static/media/icons__dot--red.bff5b07c.svg",
   "static/css/main.6059eed1.chunk.css.map": "/libraries/danmark-testen/static/css/main.6059eed1.chunk.css.map",
   "index.html": "/libraries/danmark-testen/index.html",
-  "precache-manifest.a3be5601b9b9e212718d640c681a3f9d.js": "/libraries/danmark-testen/precache-manifest.a3be5601b9b9e212718d640c681a3f9d.js",
+  "precache-manifest.6a87e169b947213ff9afe1815e8e1e6f.js": "/libraries/danmark-testen/precache-manifest.6a87e169b947213ff9afe1815e8e1e6f.js",
   "service-worker.js": "/libraries/danmark-testen/service-worker.js"
 }
