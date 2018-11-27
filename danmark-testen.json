@@ -20,8 +20,8 @@
       "depends": [
 
       ],
-      "text": "",
-      "message": "<p>Du skal være 16 år eller over for at kunne blive medlem af &quot;danmark&quot;</p>",
+      "text": "<p>Her skal du indtaste din alder</p>",
+      "message": "<p>Du skal være over 15 år og under 60 år for at kunne blive medlem af &quot;danmark&quot;</p>",
       "operator": "and",
       "answers": [
         {
