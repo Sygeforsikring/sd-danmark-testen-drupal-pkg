@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/libraries/danmark-testen/static/css/main.a76efc33.chunk.css",
+    "main.js": "/libraries/danmark-testen/static/js/main.c86dbab6.chunk.js",
+    "main.js.map": "/libraries/danmark-testen/static/js/main.c86dbab6.chunk.js.map",
+    "runtime-main.js": "/libraries/danmark-testen/static/js/runtime-main.2b2e4f03.js",
+    "runtime-main.js.map": "/libraries/danmark-testen/static/js/runtime-main.2b2e4f03.js.map",
+    "static/js/2.6948f763.chunk.js": "/libraries/danmark-testen/static/js/2.6948f763.chunk.js",
+    "static/js/2.6948f763.chunk.js.map": "/libraries/danmark-testen/static/js/2.6948f763.chunk.js.map",
+    "index.html": "/libraries/danmark-testen/index.html",
+    "precache-manifest.6fbc28c8f596816b465defccd8641676.js": "/libraries/danmark-testen/precache-manifest.6fbc28c8f596816b465defccd8641676.js",
+    "service-worker.js": "/libraries/danmark-testen/service-worker.js",
+    "static/css/main.a76efc33.chunk.css.map": "/libraries/danmark-testen/static/css/main.a76efc33.chunk.css.map",
+    "static/js/2.6948f763.chunk.js.LICENSE.txt": "/libraries/danmark-testen/static/js/2.6948f763.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/libraries/danmark-testen/static/media/montserrat-regular.fb9f212b.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b2e4f03.js",
+    "static/js/2.6948f763.chunk.js",
+    "static/css/main.a76efc33.chunk.css",
+    "static/js/main.c86dbab6.chunk.js"
+  ]
+}
