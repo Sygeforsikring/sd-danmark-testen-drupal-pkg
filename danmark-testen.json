@@ -1,0 +1,562 @@
+{
+  "data": {
+    "intro": "<h2><strong>Er du i tvivl, så tag testen!</strong></h2><p>Testen er til dig, der overvejer at blive medlem, som ønsker en ide om, hvilken gruppe der kan være den rigtige. Er du allerede medlem og i tvivl om gruppevalg, så ring på 70 10 90 70. Du skal melde dig ind i tide – det vil sige, mens du er rask, ikke bruger medicin og er under 60 år. <a href='helbreds-og-alderskrav'>Læs mere om helbreds- og alderskrav</a>.</p>",
+    "debug": false,
+    "results": [
+      {
+        "group": "basis",
+        "up_to": 1520,
+        "html": "<h2>BASIS</h2>\n<p><strong>Et hvilende medlemskab</strong><br />\nEt tilbud til dig, der ikke har brug for &quot;danmark&quot;s tilskud lige nu, men som ønsker at sikre dig retten til at få tilskud fra &quot;danmark&quot; engang i fremtiden - uden at skulle afgive fornyet helbredserklæring. Medlemskabet giver nemlig mulighed for gruppeskift, når blot du har haft Basis-Sygeforsikring i et år.</p>",
+
+        "primaryButtonText": "Meld dig ind",
+        "primaryButtonLink": "https://www.dit-danmark.dk/webindmeldelse/indmeldelse.aspx",
+        "secondaryButtonText": "Læs mere om grupperne",
+        "secondaryButtonLink": "http://sd-statamic.test/grupper"
+      },
+      {
+        "group": "5",
+        "up_to": 10000,
+        "html": "Med Gruppe 5 sikrer du dig tilskud til de regelmæssige udgifter til medicin, tandlæge, vaccination, briller og kontaktlinser. Skulle du få behov for behandling hos fysioterapeut, kiropraktor, akupunktør, zoneterapeut eller psykolog, giver vi også tilskud til det. Som medlem af Gruppe 5 kan du også få tilskud til visse behandlinger i udlandet (EU/EØS-landene).</p>",
+        "pris": 350,
+        "primaryGroupName": "GRUPPE 5",
+        "secondaryGroupName": "Den grundlæggende dækning",
+        "primaryButtonText": "Meld dig ind",
+        "primaryButtonLink": "https://www.dit-danmark.dk/webindmeldelse/indmeldelse.aspx",
+        "secondaryButtonText": "Læs mere om grupperne",
+        "secondaryButtonLink": "http://sd-statamic.test/grupper"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Hvad er din alder?",
+        "step": 1,
+        "depends": [],
+        "text": "",
+        "message": "<p>Du skal være over 16 år og under 60 år for at kunne blive medlem af &quot;danmark&quot;</p>",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 1, "score": 0, "text": "0-15", "age": null },
+          { "answer_id": 2, "score": 0, "text": "16-16", "age": null },
+          { "answer_id": 3, "score": 0, "text": "17-17", "age": null },
+          { "answer_id": 4, "score": 0, "text": "18-24", "age": null },
+          { "answer_id": 5, "score": 0, "text": "25-25", "age": null },
+          { "answer_id": 6, "score": 0, "text": "26-44", "age": null },
+          { "answer_id": 7, "score": 0, "text": "45-59", "age": null }
+        ]
+      },
+      {
+        "question": "Antal hjemmeboende børn under 16 år?",
+        "step": 2,
+        "depends": [],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 8, "score": 0, "text": "Ingen", "age": null },
+          { "answer_id": 9, "score": 150, "text": "1 barn", "age": null },
+          { "answer_id": 10, "score": 300, "text": "2 børn", "age": null },
+          {
+            "answer_id": 11,
+            "score": 450,
+            "text": "3 eller flere",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Bruger du briller eller kontaktlinser?",
+        "step": 3,
+        "depends": [],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 12, "score": 0, "text": "Ingenting", "age": null },
+          { "answer_id": 13, "score": 396, "text": "Briller", "age": [2, 3] },
+          { "answer_id": 14, "score": 391, "text": "Briller", "age": [4, 5] },
+          { "answer_id": 15, "score": 437, "text": "Briller", "age": [6] },
+          { "answer_id": 16, "score": 608, "text": "Briller", "age": [7] },
+          {
+            "answer_id": 17,
+            "score": 500,
+            "text": "Kontaktlinser",
+            "age": null
+          },
+          {
+            "answer_id": 18,
+            "score": 891,
+            "text": "Briller & kontaktlinser",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Hvor tit går du til tandlægen ?",
+        "step": 4,
+        "depends": [3],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 19, "score": 0, "text": "Aldrig", "age": null },
+          {
+            "answer_id": 20,
+            "score": 0,
+            "text": "Hvert andet år",
+            "age": null
+          },
+          {
+            "answer_id": 21,
+            "score": 0,
+            "text": "1 gang om året",
+            "age": null
+          },
+          {
+            "answer_id": 22,
+            "score": 0,
+            "text": "2 gange om året",
+            "age": null
+          },
+          {
+            "answer_id": 23,
+            "score": 0,
+            "text": "3 gange eller oftere",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Hvor tit går du til tandlægen?",
+        "step": 4,
+        "depends": [4],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 24, "score": 0, "text": "Aldrig", "age": null },
+          {
+            "answer_id": 25,
+            "score": 153,
+            "text": "Hvert andet år",
+            "age": null
+          },
+          {
+            "answer_id": 26,
+            "score": 305,
+            "text": "1 gang om året",
+            "age": null
+          },
+          {
+            "answer_id": 27,
+            "score": 838,
+            "text": "2 gange om året",
+            "age": null
+          },
+          {
+            "answer_id": 28,
+            "score": 1370,
+            "text": "3 gange eller oftere",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Hvor tit går du til tandlægen?",
+        "step": 4,
+        "depends": [5],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 29, "score": 0, "text": "Aldrig", "age": null },
+          {
+            "answer_id": 30,
+            "score": 0,
+            "text": "Hvert andet år",
+            "age": null
+          },
+          {
+            "answer_id": 31,
+            "score": 0,
+            "text": "1 gang om året",
+            "age": null
+          },
+          {
+            "answer_id": 32,
+            "score": 0,
+            "text": "2 gange om året",
+            "age": null
+          },
+          {
+            "answer_id": 33,
+            "score": 0,
+            "text": "3 gange eller oftere",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Hvor tit går du til tandlægen?",
+        "step": 4,
+        "depends": [7, 6],
+        "text": "",
+        "message": "",
+        "operator": "or",
+        "answers": [
+          { "answer_id": 34, "score": 0, "text": "Aldrig", "age": null },
+          {
+            "answer_id": 35,
+            "score": 88,
+            "text": "Hvert andet år",
+            "age": null
+          },
+          {
+            "answer_id": 36,
+            "score": 175,
+            "text": "1 gang om året",
+            "age": null
+          },
+          {
+            "answer_id": 37,
+            "score": 420,
+            "text": "2 gange om året",
+            "age": null
+          },
+          {
+            "answer_id": 38,
+            "score": 665,
+            "text": "3 gange eller oftere",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Hvornår forventer du at gå til tandlæge?",
+        "step": 4,
+        "depends": [3, 22],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          {
+            "answer_id": 39,
+            "score": 0,
+            "text": "Begge gange inden jeg fylder 18 år",
+            "age": null
+          },
+          {
+            "answer_id": 40,
+            "score": 305,
+            "text": "1 gang før og 1 gang efter jeg er fyldt 18 år",
+            "age": null
+          },
+          {
+            "answer_id": 41,
+            "score": 838,
+            "text": "Begge gange efter jeg er fyldt 18 år",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Hvornår forventer du at gå til tandlæge?",
+        "step": 4,
+        "depends": [3, 23],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          {
+            "answer_id": 42,
+            "score": 0,
+            "text": "3 gange inden jeg fylder 18 år",
+            "age": null
+          },
+          {
+            "answer_id": 43,
+            "score": 305,
+            "text": "2 gange inden jeg fylder 18 år og 1 gang efter",
+            "age": null
+          },
+          {
+            "answer_id": 44,
+            "score": 838,
+            "text": "1 gang inden jeg fylder 18 år og 2 gange efter",
+            "age": null
+          },
+          {
+            "answer_id": 45,
+            "score": 1370,
+            "text": "3 gange efter jeg er fyldt 18 år",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Hvornår forventer du at gå til tandlæge?",
+        "step": 4,
+        "depends": [3, 21],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          {
+            "answer_id": 46,
+            "score": 0,
+            "text": "Inden jeg fylder 18 år",
+            "age": null
+          },
+          {
+            "answer_id": 47,
+            "score": 305,
+            "text": "Efter jeg er fyldt 18 år",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Hvornår forventer du at gå til tandlæge?",
+        "step": 4,
+        "depends": [5, 31],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          {
+            "answer_id": 48,
+            "score": 305,
+            "text": "Inden jeg fylder 26 år",
+            "age": null
+          },
+          {
+            "answer_id": 49,
+            "score": 175,
+            "text": "Efter jeg er fyldt 26 år",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Hvornår forventer du at gå til tandlæge?",
+        "step": 4,
+        "depends": [5, 32],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          {
+            "answer_id": 52,
+            "score": 838,
+            "text": "Begge gange inden jeg fylder 26 år",
+            "age": null
+          },
+          {
+            "answer_id": 53,
+            "score": 480,
+            "text": "1 gang før og 1 gang efter jeg er fyldt 26 år",
+            "age": null
+          },
+          {
+            "answer_id": 54,
+            "score": 420,
+            "text": "Begge gange efter jeg er fyldt 26 år",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Hvornår forventer du at gå til tandlæge?",
+        "step": 4,
+        "depends": [5, 33],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          {
+            "answer_id": 55,
+            "score": 1370,
+            "text": "3 gange inden jeg fylder 26 år",
+            "age": null
+          },
+          {
+            "answer_id": 56,
+            "score": 1013,
+            "text": "2 gange inden jeg fylder 26 år og 1 gang efter",
+            "age": null
+          },
+          {
+            "answer_id": 57,
+            "score": 725,
+            "text": "1 gang inden jeg fylder 26 år og 2 gange efter",
+            "age": null
+          },
+          {
+            "answer_id": 58,
+            "score": 665,
+            "text": "3 gange efter jeg er fyldt 26 år",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Overvejer du inden for de næste 12 måneder at rejse til et land uden for Europa, der medfører vaccination?",
+        "step": 5,
+        "depends": [],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 59, "score": 0, "text": "Nej", "age": null },
+          { "answer_id": 60, "score": 887, "text": "Ja", "age": null }
+        ]
+      },
+      {
+        "question": "Skal dit barn inden for de næste 12 måneder rejse til et land uden for Europa, der medfører vaccination?",
+        "step": 5,
+        "depends": [9],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 61, "score": 0, "text": "Nej", "age": null },
+          { "answer_id": 62, "score": 437, "text": "Ja", "age": null }
+        ]
+      },
+      {
+        "question": "Skal dine børn inden for de næste 12 måneder rejse til et land uden for Europa, der medfører vaccination?",
+        "step": 5,
+        "depends": [10],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 63, "score": 0, "text": "Nej", "age": null },
+          {
+            "answer_id": 64,
+            "score": 437,
+            "text": "Ja, 1 af dem",
+            "age": null
+          },
+          {
+            "answer_id": 65,
+            "score": 874,
+            "text": "Ja, dem begge",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Skal dine børn inden for de næste 12 måneder rejse til et land uden for Europa, der medfører vaccination?",
+        "step": 5,
+        "depends": [11],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 66, "score": 0, "text": "Nej", "age": null },
+          {
+            "answer_id": 67,
+            "score": 437,
+            "text": "Ja, 1 af dem",
+            "age": null
+          },
+          {
+            "answer_id": 68,
+            "score": 874,
+            "text": "Ja, 2 af dem",
+            "age": null
+          },
+          { "answer_id": 69, "score": 1311, "text": "Ja, alle", "age": null }
+        ]
+      },
+      {
+        "question": "Skal du inden for de næste 12 måneder påbegynde vaccination mod HPV - uden at opnå offentligt tilskud?",
+        "step": 6,
+        "depends": [8],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 70, "score": 0, "text": "Nej", "age": null },
+          { "answer_id": 71, "score": 2100, "text": "Ja", "age": null }
+        ]
+      },
+      {
+        "question": "Skal du/dit barn inden for de næste 12 måneder påbegynde vaccination mod HPV - uden at opnå offentligt tilskud?",
+        "step": 6,
+        "depends": [9],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 72, "score": 0, "text": "Nej, ingen", "age": null },
+          {
+            "answer_id": 73,
+            "score": 2100,
+            "text": "Ja, 1 af os",
+            "age": null
+          },
+          {
+            "answer_id": 74,
+            "score": 4200,
+            "text": "Ja, begge to",
+            "age": null
+          }
+        ]
+      },
+      {
+        "question": "Skal du/dine børn inden for de næste 12 måneder påbegynde vaccination mod HPV - uden at opnå offentligt tilskud?",
+        "step": 6,
+        "depends": [10],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 75, "score": 0, "text": "Nej, ingen", "age": null },
+          {
+            "answer_id": 76,
+            "score": 2100,
+            "text": "Ja, 1 person",
+            "age": null
+          },
+          {
+            "answer_id": 77,
+            "score": 4200,
+            "text": "Ja, 2 personer",
+            "age": null
+          },
+          { "answer_id": 78, "score": 6300, "text": "Ja, os alle", "age": null }
+        ]
+      },
+      {
+        "question": "Skal du/dine børn inden for de næste 12 måneder påbegynde vaccination mod HPV - uden at opnå offentligt tilskud?",
+        "step": 6,
+        "depends": [11],
+        "text": "",
+        "message": "",
+        "operator": "and",
+        "answers": [
+          { "answer_id": 79, "score": 0, "text": "Nej, ingen", "age": null },
+          {
+            "answer_id": 80,
+            "score": 2100,
+            "text": "Ja, 1 af os",
+            "age": null
+          },
+          {
+            "answer_id": 81,
+            "score": 4200,
+            "text": "Ja, mindst 2 af os",
+            "age": null
+          },
+          {
+            "answer_id": 82,
+            "score": 6300,
+            "text": "Ja, mindst 3 af os",
+            "age": null
+          }
+        ]
+      }
+    ]
+  }
+}
