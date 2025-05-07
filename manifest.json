@@ -1,0 +1,45 @@
+{
+  "index.css": {
+    "file": "assets/index-f0c67d58.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "assets": [
+      "assets/icons__dot--grey-1a479f08.svg",
+      "assets/icons__dot--red-88c26600.svg",
+      "assets/icons__heart--grey-8925c3ee.svg",
+      "assets/icons__heart--red-86a5b495.svg",
+      "assets/kvinde-med-baerbar-078c40fc.jpg"
+    ],
+    "css": [
+      "assets/index-f0c67d58.css"
+    ],
+    "file": "assets/index-e190d6c6.js",
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "src/images/arrow-right.svg": {
+    "file": "assets/arrow-right-09a91c5a.svg",
+    "src": "src/images/arrow-right.svg"
+  },
+  "src/images/icons__dot--grey.svg": {
+    "file": "assets/icons__dot--grey-1a479f08.svg",
+    "src": "src/images/icons__dot--grey.svg"
+  },
+  "src/images/icons__dot--red.svg": {
+    "file": "assets/icons__dot--red-88c26600.svg",
+    "src": "src/images/icons__dot--red.svg"
+  },
+  "src/images/icons__heart--grey.svg": {
+    "file": "assets/icons__heart--grey-8925c3ee.svg",
+    "src": "src/images/icons__heart--grey.svg"
+  },
+  "src/images/icons__heart--red.svg": {
+    "file": "assets/icons__heart--red-86a5b495.svg",
+    "src": "src/images/icons__heart--red.svg"
+  },
+  "src/images/kvinde-med-baerbar.jpg": {
+    "file": "assets/kvinde-med-baerbar-078c40fc.jpg",
+    "src": "src/images/kvinde-med-baerbar.jpg"
+  }
+}
